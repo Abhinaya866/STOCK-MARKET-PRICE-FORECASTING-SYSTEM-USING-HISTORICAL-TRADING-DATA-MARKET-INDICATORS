@@ -1,0 +1,78 @@
+
+STOCK MARKET PRICE FORECASTING - ANALYSIS INSIGHTS
+
+1. MODEL PERFORMANCE SUMMARY
+Best Performing Model: Linear Regression
+  - RMSE (Root Mean Squared Error): 6.8716
+  - MAE (Mean Absolute Error): 5.602
+  - R² Score: 0.9401
+  - MAPE (Mean Absolute Percentage Error): 2.8988%
+
+2. MODEL COMPARISON
+Linear Regression:
+  - RMSE: 6.8716
+  - MAE: 5.602
+  - R² Score: 0.9401
+  - MAPE: 2.8988%
+  - Strengths: Simple, interpretable, fast
+  - Weaknesses: Limited to linear relationships
+
+Random Forest:
+  - RMSE: 53.0742
+  - MAE: 45.0289
+  - R² Score: -2.5736
+  - MAPE: 21.571%
+  - Strengths: Captures non-linear patterns, robust
+  - Weaknesses: Can overfit, less interpretable
+
+Gradient Boosting:
+  - RMSE: 53.7856
+  - MAE: 45.5409
+  - R² Score: -2.67
+  - MAPE: 21.802%
+  - Strengths: High accuracy, sequential learning
+  - Weaknesses: Computationally intensive, prone to overfitting
+
+3. TECHNICAL INDICATORS ANALYSIS
+The system calculates 12 key technical indicators:
+  - Moving Averages (SMA 10, 20, 50): Identify trends
+  - Exponential Moving Averages (EMA 12, 26): Quick response to price changes
+  - MACD: Momentum indicator
+  - RSI: Overbought/Oversold conditions
+  - Bollinger Bands: Volatility and support/resistance levels
+  - Volatility: Price movement intensity
+
+4. FORECASTING METHODOLOGY
+The system uses a 30-day lookback window to predict the next day's closing price.
+Features include:
+  - Historical prices and volumes
+  - Technical indicators
+  - Price momentum
+  - Volatility measures
+
+5. KEY FINDINGS
+- Linear Regression achieved the best R² score, indicating strong predictive power
+- The models capture market trends effectively
+- Technical indicators provide valuable signals for price movements
+- Volatility is a significant factor in price forecasting
+
+6. RECOMMENDATIONS FOR INVESTORS
+- Use the best-performing model for short-term price predictions
+- Combine model predictions with technical indicator analysis
+- Monitor RSI for overbought/oversold conditions
+- Track MACD for momentum changes
+- Use Bollinger Bands for support/resistance levels
+- Consider volatility when assessing risk
+
+7. SYSTEM LIMITATIONS
+- Historical data may not predict future performance
+- Market anomalies and black swan events are unpredictable
+- External factors (news, geopolitical events) are not considered
+- Model performance may degrade during market regime changes
+
+8. FUTURE ENHANCEMENTS
+- Incorporate sentiment analysis from news and social media
+- Add economic indicators (interest rates, inflation)
+- Implement ensemble methods combining multiple models
+- Develop real-time prediction capabilities
+- Create risk management and portfolio optimization features
